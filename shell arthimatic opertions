@@ -1,0 +1,24 @@
+#!/bin/bash
+
+x=3
+
+y=5
+
+echo"x=3,y=5"
+
+echo"Addtion of x & y"
+echo $(($x+$y))
+
+echo"sub of x & y"
+echo $(($x-$y))
+
+echo "mul of x & y"
+echo $(($x*$y))
+
+echo "div of x& y"
+echo $(($x / $y))
+
+echo "dividing  x by 5,x="
+((x/=5))
+echo $x
+
